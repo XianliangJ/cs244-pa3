@@ -11,8 +11,7 @@
 
 ### Setting up an EC2 Instance
 
-If you are unfamiliar with EC2, consider looking at [CS244's guide to getting started](http://web.stanford.edu/class/cs244/ec2setup.html)
-
+If you are unfamiliar with EC2, consider looking at [CS244's guide to getting started](http://web.stanford.edu/class/cs244/ec2setup.html) and [Amazon's beginner guide](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html).
 To run the experiments, you will need to set up an EC2 instance from our public AMI.
 Make sure that your region is set to US West (N. California) region, as this is where
 the AMI is registered. You can change your region in the top right corner of the upper 
