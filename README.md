@@ -1,6 +1,14 @@
 # CS244 PA3: Verus vs. Sprout
 ###### Andrew Lim (alim16@stanford.edu) and Ryan Hermstein (rherms@stanford.edu)
 
+### Code structure:
+
+The Sprout code is located in ***alfalfa/src/examples***. We use the ***sendonly*** branch of alfalfa.
+The Verus code is located in ***verus/src***.
+The scripts that run our experiments as well as our variable trace generator script are in ***scripts***.
+Our modified plotting scripts for Verus and the combined Verus-Sprout throughput graph are in ***plot_scripts***.
+Our implementation of RED for Mahimahi is located in ***mahimahi/src/packet/red_packet_queue.hh***.
+
 ### Setting up an EC2 Instance
 
 To run the experiments, you will need to set up an EC2 instance from our public AMI.
@@ -52,3 +60,5 @@ make clean && make
 
 If you would like to run the experiments including some of the additional traces (ATT and Verizon), use the 
 **run_experiment_full.py** script.
+
+
