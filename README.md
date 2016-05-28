@@ -3,11 +3,11 @@
 
 ### Code structure:
 
-The Sprout code is located in ***alfalfa/src/examples***. We use the ***sendonly*** branch of alfalfa.
-The Verus code is located in ***verus/src***.
-The scripts that run our experiments as well as our variable trace generator script are in ***scripts***.
-Our modified plotting scripts for Verus and the combined Verus-Sprout throughput graph are in ***plot_scripts***.
-Our implementation of RED for Mahimahi is located in ***mahimahi/src/packet/red_packet_queue.hh***.
+* The Sprout code is located in ***alfalfa/src/examples***. We use the ***sendonly*** branch of alfalfa.
+* The Verus code is located in ***verus/src***.
+* The scripts that run our experiments as well as our variable trace generator script are in ***scripts***.
+* Our modified plotting scripts for Verus and the combined Verus-Sprout throughput graph are in ***plot_scripts***.
+* Our implementation of RED for Mahimahi is located in ***mahimahi/src/packet/red_packet_queue.hh***.
 
 ### Setting up an EC2 Instance
 
