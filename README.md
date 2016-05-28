@@ -37,6 +37,8 @@ The plot html file names will include the following information: verus or sprout
 var or alma (indicate whether the trace used was the synthetic variable trace or the Alma Street trace), and throughput
 or delay (what kind of plot).
 
+Don't forget to stop your instance after obtaining the result graphs! Also, if you want to close the SSH connection to your instance while the experiments are running, look into "screen".
+
 Note: If you would like to re-run the experiments, you should first run the cleanup script to delete any logs/outputs
 from the previous run. From within **PA3**:
 
