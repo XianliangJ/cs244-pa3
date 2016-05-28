@@ -30,8 +30,11 @@ should be already compiled. Thus, you can run the experiments immediately using 
 cd PA3
 python run_experiment.py
 ```
-The experiments will take ~1 hr to run. The resulting graphs will be placed in the **results** subdirectory 
+The experiments will take ~30 minutes to run. The resulting graphs will be placed in the **results** subdirectory 
 within the **PA3** directory. SCP the graph files to your local machine, and open them in a web browser to view.
+The plot html file names will include the following information: verus or sprout (which congestion control algorithm),
+var or alma (indicate whether the trace used was the synthetic variable trace or the Alma Street trace), and throughput
+or delay (what kind of plot).
 
 Note: If you would like to re-run the experiments, you should first run the cleanup script to delete any logs/outputs
 from the previous run. From within **PA3**:
