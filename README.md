@@ -35,7 +35,7 @@ The experiments will take ~30 minutes to run. The resulting graphs will be place
 within the **PA3** directory. SCP the graph files to your local machine, and open them in a web browser to view.
 The plot html file names will include the following information: verus or sprout (which congestion control algorithm),
 var or alma (indicate whether the trace used was the synthetic variable trace or the Alma Street trace), and throughput
-or delay (what kind of plot).
+or delay (what kind of plot). The plot that compares the throughputs is named "var_throughput_comp.html".
 
 Don't forget to stop your instance after obtaining the result graphs! Also, if you want to close the SSH connection to your instance while the experiments are running, look into "screen".
 
