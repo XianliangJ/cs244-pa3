@@ -11,12 +11,13 @@
 
 ### Setting up an EC2 Instance
 
+If you are unfamiliar with EC2, consider looking at [CS244's guide to getting started](http://web.stanford.edu/class/cs244/ec2setup.html)
+
 To run the experiments, you will need to set up an EC2 instance from our public AMI.
 Make sure that your region is set to US West (N. California) region, as this is where
 the AMI is registered. You can change your region in the top right corner of the upper 
-navigation bar. Our AMI id is: **ami-38afd458** and the AMI name is: **cs244-pa3-verus-sprout-alim16-rherms**.
+navigation bar. In the EC2 Management Console, click on AMIs under Images in the left sidebar. Make sure to search for "Public Images" instead of "Owned by Me". Our AMI id is: **ami-38afd458** and the AMI name is: **cs244-pa3-verus-sprout-alim16-rherms**. Right click the AMI and click "Launch" to launch an instance.
 
-Once you have located the AMI, you will need to launch an instance.
 The experiments should be run on a **single m4.xlarge** instance with **30 GiB of General Purpose SSD** 
 storage (this will be the default when you configure instance settings). When configuring the
 security group, you will want to add an **All UDP** rule with **port range 0 - 65535** and source set to **My IP**.
