@@ -14,7 +14,7 @@
 To run the experiments, you will need to set up an EC2 instance from our public AMI.
 Make sure that your region is set to US West (N. California) region, as this is where
 the AMI is registered. You can change your region in the top right corner of the upper 
-navigation bar. Our AMI id is: **ami-11b5ce71** and the AMI name is: **cs244-pa3-verus-sprout-ryandrew**.
+navigation bar. Our AMI id is: **ami-38afd458** and the AMI name is: **cs244-pa3-verus-sprout-alim16-rherms**.
 
 Once you have located the AMI, you will need to launch an instance.
 The experiments should be run on a **single m4.xlarge** instance with **30 GiB of General Purpose SSD** 
